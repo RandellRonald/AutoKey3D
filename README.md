@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # AutoKey3D
-=======
 # KeyForge
->>>>>>> 07f0a7d (Add README)
+Automatic Physical Key 3D Generation System for CNC Key Shops
+
+
