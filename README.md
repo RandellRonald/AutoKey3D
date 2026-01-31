@@ -33,7 +33,6 @@ AutoKey3D/
 ## Screenshots
 
 ### 1. Main Interface
-![Main Interface](keygen-project/assets/screenshot_v2.png)
 *The starting screen where users can initiate key generation.*
 
 ### 2. Generated Unique Key
