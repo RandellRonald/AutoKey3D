@@ -1,0 +1,14 @@
+# Virtual environments
+venv/
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.so
+
+# Local dependencies
+pylibs/
+
+# Generated STL files
+keygen-project/backend/storage/keys/

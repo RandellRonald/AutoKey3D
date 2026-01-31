@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Key Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import Three.js and STLLoader from CDN (using ES modules in app.js) -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AUTOMATIC KEY GENERATOR</h1>
+            <p>Generate unique, manufacturable physical keys.</p>
+        </header>
+
+        <main>
+            <div class="control-panel">
+                <button id="generateBtn" class="btn primary">GENERATE NEW KEY</button>
+                <div id="status" class="status-text">Ready</div>
+            </div>
+
+            <div class="preview-container">
+                <div id="canvas-container"></div>
+                <div class="overlay">3D PREVIEW</div>
+            </div>
+
+            <div class="action-panel">
+                <button id="downloadBtn" class="btn secondary" disabled>DOWNLOAD STL FILE</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>System Ready. All dimensions in mm.</p>
+        </footer>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
